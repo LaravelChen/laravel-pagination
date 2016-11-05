@@ -1,44 +1,40 @@
-## Demo:
+##Laravel5无刷新分页的使用
 
-![](https://wt-prj.oss.aliyuncs.com/0d06af79c49d4e08abb1ab3f7ab6e860/ca791fed-8e49-4b7e-93ce-1c8d133dc167.gif)
+###查看效果
+![enter image description here](http://picture.laravelchen.cn/my.gif)
 
-## Usage:
 
-> Notice: for the js code, just look into welcome.blade.php 
-> and the data format locates in routes.php
-
-### 1.Clone the Repo
+### 1.Clone本地的package
 
 ```
-git clone https://github.com/JellyBool/laravel-vue-pagination.git
+git clone https://github.com/LaravelChen/laravel-pagination.git
 
-cd laravel-vue-pagination
+cd laravel-pagination
 
 composer install
 
 ```
 
-### 2.Setup Database
+### 2.修改你的数据库配置
 
-edit your .env file and setup database for laravel
+修改 .env 文件并且设置数据库配置
 
-### 3.Seed some data
+### 3.数据库迁移
 
-in your project root (`laravel-vue-pagination/`):
+在你的项目根目录 (`laravel-vue-pagination/`):
 
 ```
 php artisan migrate
 
 php artisan tinker
 ```
-then 
+然后
 ```
 factory(App\Post::class,35)->create()
 ```
 
-### 4.See the demo
-run a local serve and see the demo :
+### 4.查看demo
+运行服务器然后查看demo :
 ```
 php artisan serve
 ```
-visit localhost:8000 and you are good to go 

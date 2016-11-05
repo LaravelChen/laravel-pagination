@@ -11,7 +11,7 @@
         <div id="app">
             <ul class="list-group">
                 <li class="list-group-item" v-for="item in items">
-                    <a href="/item/@{{ item.id }}">
+                    <a style="color: rebeccapurple" href="/item/@{{ item.id }}">
                         @{{ item.title }}
                     </a>
                 </li>
