@@ -1,7 +1,7 @@
 ##Laravel5无刷新分页的使用
 
 ###查看效果
-![enter image description here](http://picture.laravelchen.cn/my.gif)
+![enter image description here](https://photo.laravelchen.cn/paginate.gif)
 
 
 ### 1.Clone本地的package
